@@ -1,4 +1,4 @@
-# 03 Pokémon catch test
+Pokémon catch test
 
 Write a class named Pokemon that let's you define a name and a catch rate for a Pokémon.
 
@@ -25,19 +25,5 @@ The Pokemon class must define the following methods:
 
     4. Otherwise, calculate the modified catch rate by dividing 25 by N and adding the result to the Pokémon's base catch rate. Use the modified catch rate as the  probability of the Pokémon to be caught.
 
-Write your own unit tests in the provided TestCase for all the possible cases when trying to catch a Pokémon named "Pikachu" that has a catch rate of 35%.
-
-You are only allowed to use `random` and no other library. In tests, you're allowed to use `mock` if needed.
 
 
-## Instructions
-
-1. Fork this repository
-2. Get a local copy of your fork
-3. Create a new branch
-4. Install the requirements with `pip install -r requirements.txt`
-5. Run your tests with `coverage run -m unittest discover`
-6. Check the coverage report with `coverage report -m`
-7. Commit your work when the coverage report is 100%
-8. Push your work to your fork
-9. Send a pull request from your fork's branch to this repo
